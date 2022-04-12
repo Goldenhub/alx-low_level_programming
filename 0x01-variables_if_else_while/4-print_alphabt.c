@@ -9,14 +9,14 @@ int main(void)
 {
 	int i;
 
-	char g = 'g';
+	char q = 'q';
 	char e = 'e';
 
 	i = 97;
 
 	while (i <= 122)
 	{
-		if (i == (int)g || i == (int)e)
+		if (i == (int)q || i == (int)e)
 		{
 			continue;
 		}
