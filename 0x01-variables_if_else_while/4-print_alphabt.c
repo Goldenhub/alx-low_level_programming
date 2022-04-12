@@ -16,7 +16,7 @@ int main(void)
 
 	while (i <= 122)
 	{
-		if (i == (num)g || i == (num)e)
+		if (i == (int)g || i == (int)e)
 		{
 			continue;
 		}
