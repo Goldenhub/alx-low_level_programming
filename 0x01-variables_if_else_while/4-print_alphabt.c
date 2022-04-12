@@ -7,21 +7,15 @@
   */
 int main(void)
 {
-	int i;
-
-	char q = 'q';
-	char e = 'e';
-
-	i = 97;
+	int i = 97;
 
 	while (i <= 122)
 	{
-		if (i == (int)q || i == (int)e)
+		if (i != 113 || i != 101)
 		{
-			continue;
+			putchar(i);
+			i++;
 		}
-		putchar(i);
-		i++;
 	}
 	putchar('\n');
 	return (0);
