@@ -1,7 +1,8 @@
 #include<stdio.h>
 /**
   * main - Entry point
-  * Description: Prints a formatted string using printf() to the standard output
+  * Description: Prints a formatted string using printf()
+  * to the standard output
   * Return: 0
   */
 int main(void)
