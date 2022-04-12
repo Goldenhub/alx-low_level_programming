@@ -16,6 +16,10 @@ int main(void)
 			putchar(i);
 			i++;
 		}
+		else
+		{
+			i++;
+		}
 	}
 	putchar('\n');
 	return (0);
