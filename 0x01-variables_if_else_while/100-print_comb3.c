@@ -11,7 +11,7 @@ int main(void)
 
 	while (i <= 57)
 	{
-		let j = i + 1;
+		int j = i + 1;
 
 		while (j <= 57)
 		{
